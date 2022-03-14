@@ -1,0 +1,22 @@
+.boxProfile {
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+@media (max-width: 992px) and (min-width: 772px) {
+  #simpleCards {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) or (max-width: 772px) {
+  #ipadCards {
+    display: none;
+  }
+}
+
+*{
+  margin: 0;
+}
